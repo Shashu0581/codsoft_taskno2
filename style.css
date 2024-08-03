@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+#hero {
+    color: rgb(235, 235, 63);
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e8491d;
+    color: rgb(108, 219, 241);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#features .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#about {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about .btn {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+#services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+}
+
+#services img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    header nav, header .branding {
+        float: none;
+        text-align: center;
+    }
+
+    #features .feature, #services .service {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
